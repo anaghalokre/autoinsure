@@ -1,0 +1,201 @@
+
+@import url('css/bootstrap.css');
+@import url('css/bootstrap.min.css');
+@import url('css/bootstrap-responsive.min.css');
+
+/*home.css*/
+
+html,body { height: 100%; 
+	background-color:#EBF2F5;
+}
+.brand
+{
+  float:right;
+  height: 30px;
+  width: 40px;
+  margin-top:10px;
+  padding:0.5px;
+}
+.photo
+{
+	width:25px;
+	height:25px; 
+	clear:both;
+}
+
+#logo
+{
+	width:18%;
+	height:300%;
+
+	}
+
+li a
+{
+	color:#F2A349;
+	font-size:14px;
+	font-weight:bold;
+
+}
+.logoContainer
+{
+	background-color:#EBF2F5;
+	height:4%;
+	
+	
+}
+#header_navigation 
+{
+	
+	background:#190A45;
+	height:35px;
+	padding-top:2px;
+	padding-bottom:4px;
+	
+
+	
+	
+}
+#header_navigation, #header_navigation ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display:block;
+}
+#header_navigation {
+	
+	padding-left:75px;
+
+}
+
+#header_navigation a {
+	font-size:14px;
+	width: 7em;
+}
+
+#header_navigation li {
+
+	width: 10em;
+	
+}
+
+#header_navigation li ul {
+	position: absolute;
+	width: 18em;
+	left: -999em;
+}
+
+#header_navigation li:hover ul {
+	left: auto;
+}
+
+.main_contentainer
+{
+	background:#EBF2F5;
+}
+strong
+{
+	font-size:14px;
+	margin-top:20px;
+}
+
+label.valid {
+	width: 24px;
+	height: 24px;
+	background: url(images/valid.png) center center no-repeat;
+	display: inline-block;
+	text-indent: -9999px;
+	}
+label.error {
+	font-weight: bold;
+	color: red;
+	padding: 2px 8px;
+	margin-top: 2px;
+	}
+#JT_close_left, #JT_close_right{font-size: 1.1em;}
+#JT_copy p, #JT_copy ul{font-size: 1.1em;}
+#JT {
+	position: absolute;
+	z-index:100;
+	border: 2px solid #CCCCCC;
+	background-color: #EBF2F5;
+}
+#JT_close_left{
+	background-color: #CCCCCC;
+	text-align: left;
+	font-weight:bold;
+}
+#JT_copy p{
+margin:3px 0;
+}
+.jTip{
+cursor:help;
+}
+
+
+
+#button
+{
+	
+	margin-right:7em;
+}
+label.control-group {
+ 
+  margin-left:0;
+}
+.controls
+{
+	margin-left:5em;
+}
+.control-label
+  {
+	color:#190A45;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+	font-weight:bold;
+    line-height: 20px;
+}
+
+
+.breadcrumb li a
+{
+	color:white;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+	padding-left:30px;
+}
+
+
+.carousel-inner>.item>img {
+margin: 0 auto;
+height: 320px;
+}
+h4
+{
+	text-align:center;
+}
+
+#carousel_text
+{
+	display: inline-block; 
+	float:right;
+	padding-right:55px;
+	margin-top:40px;
+	
+}
+#myCarousel
+{
+	width: 450px; 
+	margin:0; 
+	display: inline-block; 
+}
+.carousel_span
+{
+	height:490px;
+}
+.id
+{
+	color:red;
+	margin-top:10px;
+	padding-top:15px;
+}

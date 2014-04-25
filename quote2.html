@@ -1,0 +1,258 @@
+<!doctype html>
+
+
+
+
+ <html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Get a Quote</title>
+		
+		<link rel="stylesheet" href="css/global.css" type="text/css" />
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.css" type="text/css" />
+		<link rel="stylesheet" href="css/bootstrap-combined.min.css" />
+		<link rel="stylesheet" href="css/jquery-ui.css" />
+		
+		<script src="bootstrap/js/bootstrap.js"></script>
+		<script src="js/jquery-1.9.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.validate.min.js"></script>
+		<script src="js/script.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
+	
+        <script type="text/javascript">
+			function newPopup(url) 
+			{
+				popupWindow = window.open(
+				url,'popUpWindow','height=200,width=400,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
+			}
+			
+		</script>
+</head>
+	
+<body>
+<!--company logo image-->
+	<div class="logoContainer">
+		<div class="logoContainer">
+		<a href="index.html"	>
+			<img id="logo" src="images/autoinsure.jpg" alt=" home" />
+		</a>
+		
+		<div class="navbar-fixed-top">
+			<div class="container">
+			
+				<a class="brand" href="http://www.facebook.com" target="_blank"> <img class="photo" src="images/facebook.png" alt="Join Our Facebook Fan Page" title="Facebook"></a>
+				<a class="brand" href="http://www.myspace.com" target="_blank"><img  class="photo" src="images/myspace.png" alt="Check Us Out On MySpace" title="MySpace"></a>
+				<a class="brand" href="http://twitter.com" target="_blank"><img class="photo" src="images/twitter.png" alt="Follow Us On Twitter" title="Twitter"></a>
+				<a class="brand" href="http://linkedin.com" target="_blank"><img class="photo" src="images/linkedin.png" alt="Follow Us On Linkedin" title="Linkedin"></a>
+				<a class="brand" href="http://google.com" target="_blank"><img class="photo" src="images/Google+.png" alt="Follow Us On google" title="GooglePlus"></a>
+			
+			</div>
+		</div>
+	</div>
+	<br/>
+<!-- end of companylogo image-->
+<div >
+	<ul class="breadcrumb flat">
+        <li><a href="index.html">Home</a><img src="images/arrow.gif" alt="arrow"></li>
+        <li><a href="quote.html"> Get a Quote </a><img src="images/arrow.gif" alt="arrow"></li>
+		<li class="active">Driver Info</li>
+	</ul>
+	</div>
+<!--Form registration start-->
+
+		<div class="span10" id="res_form">
+			<div class="well">
+			
+				<form id="quote2-form" class="form-horizontal" action="http://morpheus.dce.harvard.edu/cgi-bin/echo.cgi" enctype="application/x-www-form-urlencoded">
+				<fieldset>
+				<legend>Driver 1</legend>
+
+					<div class="control-group">  
+						<label class="control-label" for="fname">First Name</label>  
+							<div class="controls">	
+								<input type="text" class="input-xlarge" name="fname" id="fname" placeholder="First Name"> 
+							</div>
+					</div>
+					<div class="control-group"> 
+						<label class="control-label" for="lname">Last Name</label>
+							<div class="controls">
+								<input type="text" class="input-xlarge" name="lname" id="lname" placeholder="Last Name">
+							</div>
+					</div>
+
+					<!--dob start-->
+							<div class="control-group">
+								<label class="control-label">Date of Birth</label>
+									<div class="controls">
+									<select class="span1" name="month" size="1">
+									
+											<option value="">MM</option>
+											<option value="1">Jan</option>
+											<option value="2">Feb</option>
+											<option value="3">Mar</option>
+											<option value="4">Apr</option>
+											<option value="5">May</option>
+											<option value="6">Jun</option>
+											<option value="7">Jul</option>
+											<option value="8">Aug</option>
+											<option value="9">Sept</option>
+											<option value="10">Oct</option>
+											<option value="11">Nov</option>
+											<option value="12">Dec</option>
+								</select>
+									<select class="span1"  name="date" size="1">
+												<option value="">DD</option>
+												<option value="1">1</option>
+												<option value="2">2</option>
+												<option value="3">3</option>
+												<option value="4">4</option>
+												<option value="5">5</option>
+												<option value="6">6</option>
+												<option value="7">7</option>
+												<option value="8">8</option>
+												<option value="9">9</option>
+												<option value="10">10</option>
+												<option value="11">11</option>
+												<option value="12">12</option>
+												<option value="13">13</option>
+												<option value="14">14</option>
+												<option value="15">15</option>
+												<option value="16">16</option>
+												<option value="17">17</option>
+												<option value="18">18</option>
+												<option value="19">19</option>
+												<option value="20">20</option>
+												<option value="21">21</option>
+												<option value="22">22</option>
+												<option value="23">23</option>
+												<option value="24">24</option>
+												<option value="25">25</option>
+												<option value="26">26</option>
+												<option value="27">27</option>
+												<option value="28">28</option>
+												<option value="29">29</option>
+												<option value="30">30</option>
+												<option value="31">31</option>
+									</select>
+									<select class="span1" name="year" size="1">
+								
+											<option value="">YYYY</option>
+											<option value="2013">2013</option>
+											<option value="2012">2012</option>
+											<option value="2011">2011</option>
+											<option value="2010">2010</option>
+											<option value="2009">2009</option>
+											<option value="2008">2008</option>
+											<option value="2007">2007</option>
+											<option value="2006">2006</option>
+											<option value="2005">2005</option>
+											<option value="2004">2004</option>
+											<option value="2003">2003</option>
+											<option value="2002">2002</option>
+											<option value="2001">2001</option>
+											<option value="2000">2000</option>
+											<option value="1999">1999</option>
+											<option value="1998">1998</option>
+											<option value="1997">1997</option>
+											<option value="1996">1996</option>
+											<option value="1995">1995</option>
+											<option value="1994">1994</option>
+											<option value="1993">1993</option>
+											<option value="1992">1992</option>
+								 </select>
+							</div></div>
+					
+					<!--dob ends-->
+					<div class="control-group"> 
+						<label class="control-label">Gender</label>
+							<div class="controls">
+							<label class="radio inline">Male</label>
+								<input type="radio" name="gender" id="optionsRadios1" value="option1">
+							<label class="radio inline">Female</label>
+								<input type="radio" name="gender" id="optionsRadios2" value="option2">
+								
+							</div>
+					</div>
+					
+					<div class="control-group"> 
+						<label class="control-label">Marital Satus</label>
+							<div class="controls">
+								<select name="mstatus" size="1">
+								<option value="">Select</option>
+								<option value="M">Married</option>
+								<option value="U">Unmarried</option>
+								</select>
+							</div>
+					</div>
+					<div class="control-group"> 
+						<label class="control-label" >Driver License Status</label>
+							<div class="controls">
+								<select name="dstatus" size="1">
+								<option value="">Select</option>
+								<option value="A">Active</option>
+								<option value="S">Suspended</option>
+								<option value="R">Revoked</option>
+								</select>
+							</div>
+					</div>
+					<div class="control-group"> 
+						<label class="control-label" >Current Insurance Company</label>
+							<div class="controls">
+								<select name="cinsurance" size="1">
+								<option value="">Select</option>
+								<option value="GI">Geico Insurance</option>
+								<option value="PI">Progressive Insurance</option>
+								<option value="AI">AllState Insurance</option>
+								<option value="LMI">Liberty Mutual Insurance</option>
+								<option value="OI">Other</option>
+								</select>
+							</div>
+					</div>
+
+					<div class="control-group"> 
+						<label class="control-label" >Any accident in last 3 years
+						</label>
+						<div class="controls">
+							<label class="radio inline">Yes</label>
+								<input type="radio" name="accident" id="optionsRadios3" value="option1">
+							<label class="radio inline">No</label>
+								<input type="radio" name="accident" id="optionsRadios4" value="option2">
+						</div>
+					</div>
+					
+							<div class="text-right" id="button">	
+								 
+								<button type="submit" class="btn btn-primary btn-large">Continue</button>
+								<a class="btn btn-secondary btn-large" href="quote.html" >Back</a>
+							</div>
+					</fieldset>
+				</form>
+			</div>
+		</div>	
+
+		<!--sidebar Contact Us start-->	
+		<div class="span3" id="sidebar">
+				
+					<div class="well">
+						<fieldset>
+							<legend>Contact Us</legend>
+								<div class="contact_img">
+									<a href="JavaScript:newPopup('call_popup.html');" target="blank" > <img src="images/call.png" alt="call us"><span>Call</span></a><br/><br/>
+									<a href="#" target="blank"><img src="images/chat2.png" alt="chat with us"><span>Chat</span></a><br/><br/>
+									<a href="#" target="blank"><img src="images/faq.png" alt="FAQ"><span> FAQ </span></a>
+								</div>
+						</fieldset>
+					</div>
+			
+				
+		</div>
+	
+
+		
+		
+		
+		<!--Form registration end-->
+	</div>
+</body>
+</html>
